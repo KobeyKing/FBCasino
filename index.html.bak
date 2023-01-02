@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Fort Belknap Casino</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles1.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+
+	<!-- Nagivation Bar -->
+	<div class="navbar">
+	<a href="index.html"><img src="pics/casinologo.png" class="logo"></a>
+	<img src="pics/bborder.jpg" class="logo3">
+	<img src="pics/bufflogo.png" class="bufflogo1">
+	<img src="pics/bufflogo.png" class="bufflogo2">
+	<img src="pics/bufflogo.png" class="bufflogo3">
+	<img src="pics/bufflogo.png" class="bufflogo4">
+	<img src="pics/bufflogo.png" class="bufflogo5">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="rewards.html">Player-Rewards</a></li>
+			<li><a href="comm.html">Community</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	
+	
+	<!-- Main Content -->
+	<div class="content">
+		<h4>Welcome To The</h4>
+		<h1>Fort Belknap Casino</h1>
+		<h4>You have arrived at the Official website of the Fort Belknap Casino!<br>As you can see our website has been redesigned by Kobey King</h2>
+		<div>
+			<a href="games.html"><button type="button"><span></span>PLAY NOW</button></a>
+		</div>
+	</div>
+	
+	<section id="news">
+		<div class="featured">
+			<p>News</p>
+			<h1>Featured Updates:</h1>
+		</div>
+		
+		<div class="update-box">
+			<div class="updates">
+				<h1>Latest Announcements:</h1>
+			</div>
+			
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="pics/update1.jpg"></div>
+					<div class="swiper-slide"><img src="pics/update2.jpg"></div>
+					<div class="swiper-slide"><img src="pics/update3.jpg"></div>
+					<div class="swiper-slide"><img src="pics/update4.jpg"></div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- Footer -->
+	<footer>
+	<div class="foot">
+			<p>&copy; Copyright 2023. All Rights Reserved.</p>
+			<p><a href="mailto:kobeymk24@gmail.com">Kobeymk24@gmail.com</a></p>
+	</div>
+		
+	<div class="foot-row">
+		
+	<div class="foot-left">
+		<h1>Our Hours</h1>
+		<h4><i class="fa fa-clock-o" aria-hidden="true"></i> Sunday - Monday: 10:00 AM - 2:00 AM</h4>
+		<h4><i class="fa fa-clock-o" aria-hidden="true"></i> Saturday: 10:00 AM - 3:00 AM</h4>
+		<h4><i class="fa fa-clock-o" aria-hidden="true"></i> Holidays: HOURS MAY VARY</h4>
+	</div>
+		
+	<div class="foot-right">
+		<h1> Get In Touch</h1>
+		<h4><i class="fa fa-map-marker" aria-hidden="true"></i> 958 Agency Main Street Fort Belknap Agency, MT</h4>
+		<h4><i class="fa fa-envelope-o" aria-hidden="true"></i> support@fortbelknapcasino.net</h4>
+		<h4><i class="fa fa-phone" aria-hidden="true"></i> (406) 353-2235</h4>
+	</div>
+	</footer>
+	
+	</div>
+	
+	
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: false,
+		},
+		loop: true,
+
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		});
+	</script>
+	
+</body>
+</html>
